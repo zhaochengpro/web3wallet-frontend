@@ -1,0 +1,93 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-color: currentcolor;
+  border-style: solid;
+  border-width: 0;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+
+  line-height: normal;
+  tab-size: 4;
+  text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Space Grotesk', 'Helvetica Neue', Helvetica, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  background: #1d1826;
+  line-height: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: 'Space Grotesk', 'Helvetica Neue', Helvetica, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+img,
+svg {
+  display: inline-block;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+a:focus,
+a:active,
+div:focus {
+  outline: none;
+}

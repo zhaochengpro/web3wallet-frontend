@@ -1,0 +1,51 @@
+$-colors: (
+  'primary': (
+    'base': #cdf462
+  ),
+  'success': (
+    'base': #28ff57
+  ),
+  'warning': (
+    'base': #e6a23c
+  ),
+  'danger': (
+    'base': #f56c6c
+  ),
+  'error': (
+    'base': #f56c6c
+  ),
+  'info': (
+    'base': #909399
+  )
+);
+
+$-common-component-size: (
+  'large': 38px,
+  'default': 34px,
+  'small': 28px
+);
+
+$-text-color: (
+  'primary': #1d1826,
+  'regular': #e6e6e6,
+  'secondary': #888193,
+  'placeholder': #ffffff,
+  'disabled': #1d1826
+);
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: $-colors,
+  $common-component-size: $-common-component-size,
+  $button-border-radius: (
+    'large': 10px
+  ),
+  $mask-color: (
+    '': rgba(255, 255, 255, 0.4)
+  ),
+  $input: (
+    'border-radius': 10px
+  ),
+  $dialog: (
+    'padding-primary': 0px
+  )
+);

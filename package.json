@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@element-plus/nuxt": "^1.0.9",
+    "@pinia/nuxt": "^0.5.1",
+    "@tanstack/react-query": "^5.35.1",
+    "@unocss/nuxt": "^0.59.4",
+    "@use-wagmi/nuxt": "^2.2.0",
+    "@vueuse/nuxt": "^10.9.0",
+    "blueimp-md5": "^2.19.0",
+    "element-plus": "^2.7.2",
+    "identicon.js": "^2.3.3",
+    "numbro": "^2.5.0",
+    "nuxt": "^3.11.2",
+    "nuxt-lodash": "^2.5.3",
+    "viem": "2.x",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "wagmi": "^2.8.1"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
