@@ -1,7 +1,6 @@
 <template>
   <div class="wallet-main">
-    <Card/>
-    <Nav/>
+    <Card />
   </div>
 </template>
 
@@ -11,21 +10,26 @@
 
 <style lang="scss">
 @use '~/assets/scss/element/index.scss';
+
 body {
   color: #000;
   font-family: system-ui;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  background: linear-gradient(to bottom, #7fa595, #5d8072);
 
   #__nuxt {
     height: 100%;
+    background: #5d8072;
   }
 }
+
 .wallet-main {
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  background: linear-gradient(to bottom, #7fa595,#5d8072);
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  background: #5d8072
 }
 </style>

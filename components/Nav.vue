@@ -48,11 +48,11 @@ export default {
     // bottom: 10vh;
     display: flex;
     width: 100vw;
-    height: 30%;
+    height: 10%;
 }
 
 .navigation-card {
-    width: 85%;
+    width: 90%;
     height: 3rem;
     display: flex;
     align-items: center;
@@ -60,7 +60,9 @@ export default {
     gap: 30px;
     background-color: rgb(255, 255, 255);
     padding: 15px 20px;
-    border-radius: 50px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     margin: 0px auto;
     box-shadow: 0px 0px 20px #ccc;
 }
