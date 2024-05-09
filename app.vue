@@ -3,8 +3,6 @@
     <Card />
   </div>
 </template>
-
-
 <script>
 </script>
 
@@ -21,7 +19,7 @@ body {
 
   #__nuxt {
     height: 100%;
-    background: #5d8072;
+    background: #000;
   }
 }
 
@@ -30,6 +28,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 90%;
-  background: #5d8072
+  background: #000
 }
 </style>
